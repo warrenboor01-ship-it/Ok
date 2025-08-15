@@ -11,8 +11,9 @@ bot = Bot(token=BOT_TOKEN)
 print("Bot started!")
 
 while True:
-    try:
-        bot.send_message(chat_id=CHAT_ID, text="@EagleMEVBot For free money while you sleep")
+    try:l
+        bot.send_message(chat_id=CHAT_ID, text="@EagleMEVBot For free money while you sleep🤑
+        dm SolTradess for support")
         print("Message sent!")
     except Exception as e:
         print(f"Error sending message: {e}")
